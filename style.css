@@ -1,0 +1,480 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+*::after, *::before {
+    display: inherit;
+}
+
+span, a, label {
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.all {
+    padding: 30px;
+    max-width: 1500px;
+    background-color: #222831;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+}
+
+.spn-logo {
+    font-size: 30px;
+    color: white;
+}
+
+.a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin-left: 30px;
+}
+
+.h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.color {
+    color: #00ADB5;
+}
+
+.start {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(./img34/Vector\ 187.png), url(./img34/doodles\ mixed\ round.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom 50px;
+    background-size: 80px, 500px;
+}
+
+.start_img {
+    margin-top: 40px;
+}
+
+.start_link {
+    margin-top: 50px;
+}
+
+.a1 {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px 15px;
+    color: white;
+    background-color: #00ADB5;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.download {
+    background-color: #343840;
+}
+
+.spn_icon {
+    font-size: 30px;
+    color: white;
+    padding: 15px 20px;
+    background-color: #343840;
+    margin-top: 200px;
+    margin-left: 285px;
+}
+
+.about {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url(./img34/doodle\ items.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 700px;
+}
+
+.about_title {
+    padding: 50px;
+    background-image: url(./img34/Vector\ 141.png), url(./img34/lightbulb.png), url(./img34/Vector\ 186.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 70px, 70px, 120px;
+    background-position: left top, right top 25px, bottom;
+}
+
+.pic {
+    margin-right: 200px;
+    margin-top: 200px;
+}
+
+.about_h2 {
+    font-size: 60px;
+    color: white;
+}
+
+.txt {
+    font-size: 20px;
+    line-height: 1.6;
+    color: gray;
+}
+
+.bold {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.works {
+    margin-top: 100px;
+    background-image: url(./img34/doodle\ items.png);
+    background-position: center;
+    padding: 200px 100px;
+}
+
+.works_h2 {
+    font-size: 60px;
+    color: white;
+}
+
+.works_link {
+    margin-top: 30px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.box {
+    padding: 30px;
+    background-color: #343840cb;
+    border-radius: 20px;
+}
+
+.end_h2 {
+    font-size: 60px;
+    color: white;
+}
+
+.end {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 160px 60px;
+    background-image: url(./img34/keyboard.png), url(./img34/mail.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 60px right 400px, right 100px bottom 60px;
+}
+
+.end_title {
+    width: 49%;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 49%;
+}
+
+.label {
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.div {
+    width: 45%;
+}
+
+.input {
+    background-color: #343840;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 7px;
+    font-size: 25px;
+    width: 90%;
+}
+
+.textarea {
+    resize: none;
+    background-color: #343840;
+    border-radius: 7px;
+    width: 100%;
+    padding: 15px;
+}
+
+.button {
+    width: 100%;
+}
+
+.btn {
+    padding: 10px 25px;
+    background-color: #00ADB5;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footer_a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin-right: 70px;
+}
+
+.icon_a {
+    margin-right: 5px;
+}
+
+.footer_icons {
+    margin-top: 50px;
+}
+
+.footer_icon {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #343840;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.p {
+    font-size: 25px;
+    color: white;
+}
+
+.text {
+    text-align: right;
+    margin-top: 100px;
+}
+
+
+
+
+
+@media(max-width:1440px) {
+    .box {
+        width: 48%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:1140px) {
+    .about_title {
+        width: 100%;
+    }
+
+    .about {
+        text-align: center;
+        background-image: url(./img34/doodle\ items.png);
+        background-size: cover;
+    }
+
+    .pic {
+        margin-top: 20px;
+        margin: auto;
+    }
+}
+
+@media(max-width:970px) {
+    .start_title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .spn_icon {
+        display: none;
+    }
+
+    .start {
+        background-image: url(./img34/doodles\ mixed\ round.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .end_title {
+        width: 100%;
+    }
+
+    .end {
+        text-align: center;
+    }
+
+    .form {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .input {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:700px) {
+    .h1 {
+        font-size: 60px;
+    }
+
+    .works {
+        padding: 70px 30px;
+    }
+
+    .end {
+        padding: 80px 30px;
+    }
+}
+
+@media(max-width:640px) {
+    .footer_a {
+        margin-right: 20px;
+    }
+}
+
+@media(max-width:570px) {
+    .works_h2 {
+        font-size: 50px;
+    }
+
+    .a1 {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    .txt {
+        font-size: 20px;
+        line-height: 1.1;
+    }
+
+    .spn-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .link {
+        margin: 0 auto;
+    }
+
+    .end_h2 {
+        font-size: 50px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .all {
+        padding: 10px;
+    }
+}
+
+@media(max-width:475px) {
+    .a1 {
+        font-size: 18px;
+        margin-right: 7px;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .div {
+        width: 100%;
+    }
+}
+
+@media(max-width:460px) {
+    .h1 {
+        font-size: 50px;
+    }
+
+    .txt {
+        line-height: 1;
+        font-size: 18px;
+    }
+
+    .footer_a {
+        font-size: 18px;
+        margin-right: 5px;
+    }
+
+    .end_h2 {
+        font-size: 40px;
+    }
+
+    .footer_icon {
+        font-size: 20px;
+        margin-right: 5px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .p {
+        font-size: 18px;
+    }
+
+    .a1 {
+        width: 45%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:390px) {
+    .a {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .about_h2 {
+        font-size: 40px;
+    }
+
+    .txt {
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    .h1 {
+        font-size: 40px;
+    }
+
+    .works_h2 {
+        font-size: 40px;
+    }
+
+    .text {
+        margin-top: 50px;
+        text-align: center;
+    }
+}
